@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 46;
+    objects = {
+
+/* Begin PBXAggregateTarget section */
+		AA09DA1AD4775D4D7386ACD4 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AAF01E0669914848E68AD21D /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				AACE86C551ED634AE7A37B1E /* MultiBuild Framework */,
+			);
+			dependencies = (
+				AA2BC104F58FFF479DB65BB0 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+        AA1E66191867D84FAF976655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAAF1266C170C4D13B9E4B3 /* Foundation.framework */; };
+        AA6BC432006FA747D390E936 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAAF1266C170C4D13B9E4B3 /* Foundation.framework */; };
+        AA0C809B411EFB46D4BAD85A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA791D860E0BC04CBF827992 /* UIKit.framework */; };
+        AAC6E3622615C04C43A316D8 /* libAPIMATICCalculator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3BF8216A724641AD8B8BC5 /* libAPIMATICCalculator.a */; };
+        AA539E2BAC6E8546D19870EE /* APIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD61544EC55804A73AB39A4 /* APIHelper.m */; };
+        AA5C907FC0D7D9450187ECE5 /* APIError.m in Sources */ = {isa = PBXBuildFile; fileRef = AADC2B8663D1EC41C5AFB21B /* APIError.m */; };
+        AA46286E9044534525A6944E /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE8D8227EB8AF448FA62D91 /* Configuration.m */; };
+		AAD192A9A4244243C19953BB /* GetCalculateInput.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF0A8D9BB470341F385EDC3 /* GetCalculateInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AACF319ACD78F0419E86A546 /* GetCalculateInput.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFFE1B267E90441598B995C /* GetCalculateInput.m */; };
+		AA9E68B917904145BD91FF7A /* OperationTypeEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = AA406E6D3CE2984C7797C1BE /* OperationTypeEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA066C6E44F7E7470A841E88 /* OperationTypeEnumHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3D567419E4EE4F739DB0CF /* OperationTypeEnumHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC90BDB7F05324C418C5AD7 /* OperationTypeEnumHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3233F9FCBFEF422A89FE62 /* OperationTypeEnumHelper.m */; };
+		AAFC922F8A170F40C2BE8268 /* SimpleCalculatorController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4531EE09F7474DAFAB5C9E /* SimpleCalculatorController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA1D491E053C854F0D9414EE /* SimpleCalculatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA685F8F452DCB47F69F960E /* SimpleCalculatorController.m */; };
+		AADCA37B265D6840E2B82F8A /* Configuration.h in Headers */ = {isa = PBXBuildFile; fileRef = AA35F06DC566E8419DBEA649 /* Configuration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AABF0836A169EC4596BE5D4A /* APIError.h in Headers */ = {isa = PBXBuildFile; fileRef = AAAD53D34CC57D41E6B08BD0 /* APIError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA9D2E56D9AD4543719F8BD7 /* APIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AA956B7AD3E3E246E0A60D7B /* APIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA8224FC56540A400889F4F5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA56D8B1EA17BF42EAB1CF9A /* libPods.a */; };
+		AAE833F7BD2D874FE1939861 /* libJSONModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF39DDCEC6E38440FB7EABE /* libJSONModel.a */; };		
+		AA7FF84360F618451886AEE7 /* libUnirest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9EDF44A0B71845F0A9E465 /* libUnirest.a */; };
+		AA4C0A7E1D3D1F4D02B79186 /* IHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8FD1AF03C0994447B9BA0B /* IHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4F265C8D46DE43D7BE8856 /* HttpContext.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA9D4B2E04A4E4B1CB68850 /* HttpContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA0343ADA594314B6AB5307B /* HttpContext.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA19DE67F59EA468EA6B574 /* HttpContext.m */; };
+
+		AAF9804FA138E3413D825566 /* UnirestClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AADA3609BC167A4D04A471CE /* UnirestClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA12754396891B4534892D55 /* UnirestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC2A562C64FE84E06952B42 /* UnirestClient.m */; };
+		AABB16A330F47B42C299AAF6 /* HttpBodyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5FC69EAC2CE74A6D8559E8 /* HttpBodyRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAB8789F428B9C4B2AA6FE1D /* HttpBodyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE75E8585F7094CA8A0D134 /* HttpBodyRequest.m */; };
+		AA223389B933734B21904F40 /* HttpMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6BDEA8E379174F538221D5 /* HttpMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA33944A3F881346339E641E /* HttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC1595B580E4A4829857F4A /* HttpRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAA46A047F23B0439685CF6B /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA970BD2408D5A4065B2BA3E /* HttpRequest.m */; };
+		AA52CBCCCA8B874FE78A1A5E /* HttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5CB2E2BC1121484EB04654 /* HttpResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA346E0E8135D94C86A3F5ED /* HttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA652D086416042328444CB /* HttpResponse.m */; };
+		AADCA9A23C7DC6443B8D6AAA /* HttpStringResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AABBBFCDE14FF946F389C99A /* HttpStringResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAADB0717942E14DC19B101A /* HttpStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF4A86ABB51F34D689C8386 /* HttpStringResponse.m */; };
+		AAF43A4ABFC9DE470DAF08A5 /* BaseController.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE9E703C859DA4EC28975FB /* BaseController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA17C98A3DA4614AA2B9268E /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2E0E6FD15014E2CA5044F /* BaseController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA61537770990641C4873993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAAD4F4A4B934C48889E619F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAEA836D72B5234C72BAEFAD;
+			remoteInfo = APIMATICCalculator;
+		};
+        AA61537770990641C4873993 /* PBXContainerItemProxy */ = {
+            isa = PBXContainerItemProxy;
+            containerPortal = AAA1611CD1A3294045B2CC6F /* Project object */;
+            proxyType = 1;
+            remoteGlobalIDString = AAEA836D72B5234C72BAEFAD;
+            remoteInfo = APIMATICCalculator;
+        };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+        AA1FE4F55B7AB04944B2A67C /* CopyFiles */ = {
+            isa = PBXCopyFilesBuildPhase;
+            buildActionMask = 2147483647;
+            dstPath = "include/$(PRODUCT_NAME)";
+            dstSubfolderSpec = 16;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+        AA3BF8216A724641AD8B8BC5 /* libAPIMATICCalculator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAPIMATICCalculator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+        AAAAF1266C170C4D13B9E4B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+        AA0904330813EA41AE8000B7 /* APIMATICCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APIMATICCalculator-Prefix.pch"; sourceTree = "<group>"; };
+        AA791D860E0BC04CBF827992 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+        AAD61544EC55804A73AB39A4 /* APIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIHelper.m; sourceTree = "<group>"; };
+        AA956B7AD3E3E246E0A60D7B /* APIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIHelper.h; sourceTree = "<group>"; };		
+        AADC2B8663D1EC41C5AFB21B /* APIError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIError.m; sourceTree = "<group>"; };
+        AAAD53D34CC57D41E6B08BD0 /* APIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIError.h; sourceTree = "<group>"; };
+        AAE8D8227EB8AF448FA62D91 /* Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Configuration.m; sourceTree = "<group>"; };
+        AA35F06DC566E8419DBEA649 /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		AAF0A8D9BB470341F385EDC3 /* GetCalculateInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetCalculateInput.h; path = Models/GetCalculateInput.h; sourceTree = "<group>"; };
+		AAFFE1B267E90441598B995C /* GetCalculateInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetCalculateInput.m; path = Models/GetCalculateInput.m; sourceTree = "<group>"; };
+		AA406E6D3CE2984C7797C1BE /* OperationTypeEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperationTypeEnum.h; path = Models/OperationTypeEnum.h; sourceTree = "<group>"; };
+		AA3D567419E4EE4F739DB0CF /* OperationTypeEnumHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperationTypeEnumHelper.h; path = Models/OperationTypeEnumHelper.h; sourceTree = "<group>"; };
+		AA3233F9FCBFEF422A89FE62 /* OperationTypeEnumHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OperationTypeEnumHelper.m; path = Models/OperationTypeEnumHelper.m; sourceTree = "<group>"; };
+		AA4531EE09F7474DAFAB5C9E /* SimpleCalculatorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleCalculatorController.h; path = Controllers/SimpleCalculatorController.h; sourceTree = "<group>"; };
+		AA685F8F452DCB47F69F960E /* SimpleCalculatorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleCalculatorController.m; path = Controllers/SimpleCalculatorController.m; sourceTree = "<group>"; };
+		AA56D8B1EA17BF42EAB1CF9A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF39DDCEC6E38440FB7EABE /* libJSONModel.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libJSONModel.a"; path = "libJSONModel.a"; sourceTree = "<group>"; };
+		AA9EDF44A0B71845F0A9E465 /* libUnirest.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libUnirest.a"; path = "libUnirest.a"; sourceTree = "<group>"; };
+        AA8FD1AF03C0994447B9BA0B /* IHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IHttpClient.h; path = Http/Client/IHttpClient.h; sourceTree = "<group>"; };
+		AADA3609BC167A4D04A471CE /* UnirestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnirestClient.h; path = Http/Client/UnirestClient.h; sourceTree = "<group>"; };
+		AAC2A562C64FE84E06952B42 /* UnirestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnirestClient.m; path = Http/Client/UnirestClient.m; sourceTree = "<group>"; };
+		AAA9D4B2E04A4E4B1CB68850 /* HttpContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpContext.h; path = Http/Client/HttpContext.h; sourceTree = "<group>"; };
+		AAA19DE67F59EA468EA6B574 /* HttpContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc;name = HttpContext.m;  path = Http/Client/HttpContext.m; sourceTree = "<group>"; };
+
+		AA5FC69EAC2CE74A6D8559E8 /* HttpBodyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpBodyRequest.h; path = Http/Request/HttpBodyRequest.h; sourceTree = "<group>"; };
+		AAE75E8585F7094CA8A0D134 /* HttpBodyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpBodyRequest.m; path = Http/Request/HttpBodyRequest.m; sourceTree = "<group>"; };
+		AA6BDEA8E379174F538221D5 /* HttpMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpMethod.h; path = Http/Request/HttpMethod.h; sourceTree = "<group>"; };
+		AAC1595B580E4A4829857F4A /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpRequest.h; path = Http/Request/HttpRequest.h; sourceTree = "<group>"; };
+		AA970BD2408D5A4065B2BA3E /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpRequest.m; path = Http/Request/HttpRequest.m; sourceTree = "<group>"; };
+		AA5CB2E2BC1121484EB04654 /* HttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpResponse.h; path = Http/Response/HttpResponse.h; sourceTree = "<group>"; };
+		AAA652D086416042328444CB /* HttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpResponse.m; path = Http/Response/HttpResponse.m; sourceTree = "<group>"; };
+		AABBBFCDE14FF946F389C99A /* HttpStringResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpStringResponse.h; path = Http/Response/HttpStringResponse.h; sourceTree = "<group>"; };
+		AAF4A86ABB51F34D689C8386 /* HttpStringResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpStringResponse.m; path = Http/Response/HttpStringResponse.m; sourceTree = "<group>"; };
+		AAE9E703C859DA4EC28975FB /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseController.h; path = Controllers/BaseController.h; sourceTree = "<group>"; };
+		AAE2E0E6FD15014E2CA5044F /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseController.m; path = Controllers/BaseController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+        AA56E350C8129D4C1BB28AE7 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                AA1E66191867D84FAF976655 /* Foundation.framework in Frameworks */,
+				AA7FF84360F618451886AEE7 /* libUnirest.a in Frameworks */,				
+				AAE833F7BD2D874FE1939861 /* libJSONModel.a in Frameworks */,				
+				AA8224FC56540A400889F4F5 /* libPods.a in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        AACEA6CC368E0740E9A5AD72 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                AA0C809B411EFB46D4BAD85A /* UIKit.framework in Frameworks */,
+                AAC6E3622615C04C43A316D8 /* libAPIMATICCalculator.a in Frameworks */,
+                AA6BC432006FA747D390E936 /* Foundation.framework in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+        AA2DE2734492AD4058A5AC68 = {
+            isa = PBXGroup;
+            children = (
+                AA80FA3F1715E941BD8CE0FE /* APIMATICCalculator */,
+                AA2B38101498C84ECD95CC69 /* Frameworks */,
+                AA30DB86229AC3423083F504 /* Products */,
+            );
+            sourceTree = "<group>";
+        };
+        AA30DB86229AC3423083F504 /* Products */ = {
+            isa = PBXGroup;
+            children = (
+                AA3BF8216A724641AD8B8BC5 /* libAPIMATICCalculator.a */,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+        AA2B38101498C84ECD95CC69 /* Frameworks */ = {
+            isa = PBXGroup;
+            children = (
+				AA9EDF44A0B71845F0A9E465 /* libUnirest.a */,
+				AAF39DDCEC6E38440FB7EABE /* libJSONModel.a */,
+				AA56D8B1EA17BF42EAB1CF9A /* libPods.a */,
+                AAAAF1266C170C4D13B9E4B3 /* Foundation.framework */,
+                AA791D860E0BC04CBF827992 /* UIKit.framework */,
+            );
+            name = Frameworks;
+            sourceTree = "<group>";
+        };
+        AA80FA3F1715E941BD8CE0FE /* APIMATICCalculator */ = {
+            isa = PBXGroup;
+            children = (
+                AA8573C438E7C345B8BDFE83 /* Models */,
+                AAC7252DD45E034720AA2718 /* Http */,
+                AA546AE1394F6B480DA51D75 /* Controllers */,
+                AAB47B601CCB4E412A9C565E /* Supporting Files */,
+                AAD61544EC55804A73AB39A4 /* APIHelper.m */,
+                AA956B7AD3E3E246E0A60D7B /* APIHelper.h */,
+                AADC2B8663D1EC41C5AFB21B /* APIError.m */,
+                AAAD53D34CC57D41E6B08BD0 /* APIError.h */,
+                AAE8D8227EB8AF448FA62D91 /* Configuration.m */,
+                AA35F06DC566E8419DBEA649 /* Configuration.h */,
+            );
+            path = APIMATICCalculator;
+            sourceTree = "<group>";
+        };
+        AAB47B601CCB4E412A9C565E /* Supporting Files */ = {
+            isa = PBXGroup;
+            children = (
+                AA0904330813EA41AE8000B7 /* APIMATICCalculator-Prefix.pch */,
+            );
+            name = "Supporting Files";
+            sourceTree = "<group>";
+        };
+        AA546AE1394F6B480DA51D75 /* Controllers */ = {
+            isa = PBXGroup;
+            children = (
+				AAE9E703C859DA4EC28975FB /* BaseController.h */,
+				AAE2E0E6FD15014E2CA5044F /* BaseController.m */,
+				AA4531EE09F7474DAFAB5C9E /* SimpleCalculatorController.h */,
+				AA685F8F452DCB47F69F960E /* SimpleCalculatorController.m */,
+            );
+            name = Controllers;
+            sourceTree = "<group>";
+        };
+		AA5B214F26978E452DA0B451 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				AA8FD1AF03C0994447B9BA0B /* IHttpClient.h */,
+				AADA3609BC167A4D04A471CE /* UnirestClient.h */,
+				AAC2A562C64FE84E06952B42 /* UnirestClient.m */,
+				AAA9D4B2E04A4E4B1CB68850 /* HttpContext.h */,
+				AAA19DE67F59EA468EA6B574 /* HttpContext.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		AAC7252DD45E034720AA2718 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				AAD369508DE8994334A34F04 /* Request */,
+				AA5B214F26978E452DA0B451 /* Client */,
+				AA7AB09649845C4D8B89A9E3 /* Response */,
+			);
+			name = Http;
+			sourceTree = "<group>";
+		};
+		AAD369508DE8994334A34F04 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				AA5FC69EAC2CE74A6D8559E8 /* HttpBodyRequest.h */,
+				AAE75E8585F7094CA8A0D134 /* HttpBodyRequest.m */,
+				AA6BDEA8E379174F538221D5 /* HttpMethod.h */,
+				AAC1595B580E4A4829857F4A /* HttpRequest.h */,
+				AA970BD2408D5A4065B2BA3E /* HttpRequest.m */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		AA7AB09649845C4D8B89A9E3 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				AA5CB2E2BC1121484EB04654 /* HttpResponse.h */,
+				AAA652D086416042328444CB /* HttpResponse.m */,
+				AABBBFCDE14FF946F389C99A /* HttpStringResponse.h */,
+				AAF4A86ABB51F34D689C8386 /* HttpStringResponse.m */,
+			);
+			name = Response;
+			sourceTree = "<group>";
+		};
+        AA8573C438E7C345B8BDFE83 /* Models */ = {
+            isa = PBXGroup;
+            children = (
+				AAF0A8D9BB470341F385EDC3 /* GetCalculateInput.h */,
+				AAFFE1B267E90441598B995C /* GetCalculateInput.m */,
+				AA406E6D3CE2984C7797C1BE /* OperationTypeEnum.h */,
+				AA3D567419E4EE4F739DB0CF /* OperationTypeEnumHelper.h */,
+				AA3233F9FCBFEF422A89FE62 /* OperationTypeEnumHelper.m */,
+            );
+            name = Models;
+            sourceTree = "<group>";
+        };
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AAB3192C4352954C588374BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+		AAD192A9A4244243C19953BB /* GetCalculateInput.h in Headers */,
+		AA9E68B917904145BD91FF7A /* OperationTypeEnum.h in Headers */,
+		AA066C6E44F7E7470A841E88 /* OperationTypeEnumHelper.h in Headers */,
+		AAFC922F8A170F40C2BE8268 /* SimpleCalculatorController.h in Headers */,
+		AA9D2E56D9AD4543719F8BD7 /* APIHelper.h in Headers */,
+		AADCA37B265D6840E2B82F8A /* Configuration.h in Headers */,
+		AABF0836A169EC4596BE5D4A /* APIError.h in Headers */,
+		AABB16A330F47B42C299AAF6 /* HttpBodyRequest.h in Headers */,
+		AA33944A3F881346339E641E /* HttpRequest.h in Headers */,
+		AA4C0A7E1D3D1F4D02B79186 /* IHttpClient.h in Headers */,
+		AA4F265C8D46DE43D7BE8856 /* HttpContext.h in Headers */,
+
+		AAF43A4ABFC9DE470DAF08A5 /* BaseController.h in Headers */,
+		AA52CBCCCA8B874FE78A1A5E /* HttpResponse.h in Headers */,
+		AAF9804FA138E3413D825566 /* UnirestClient.h in Headers */,
+		AADCA9A23C7DC6443B8D6AAA /* HttpStringResponse.h in Headers */,
+		AA223389B933734B21904F40 /* HttpMethod.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+        AAEA836D72B5234C72BAEFAD /* APIMATICCalculator */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = AA5083326A1B264D77A64B16 /* Build configuration list for PBXNativeTarget "APIMATICCalculator" */;
+            buildPhases = (
+                AA6005E51FBBA841F39F2B59 /* Sources */,
+                AA56E350C8129D4C1BB28AE7 /* Frameworks */,
+                AA1FE4F55B7AB04944B2A67C /* CopyFiles */,
+				AAB3192C4352954C588374BF /* Headers */,
+				AA9B531ECA36C64EEE991446 /* Build Framework */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = APIMATICCalculator;
+            productName = APIMATICCalculator;
+            productReference = AA3BF8216A724641AD8B8BC5 /* libAPIMATICCalculator.a */;
+            productType = "com.apple.product-type.library.static";
+        };		
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+        AAA1611CD1A3294045B2CC6F /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                LastUpgradeCheck = 0500;
+                ORGANIZATIONNAME = APIMatic;
+            };
+            buildConfigurationList = AA686BCE5A290D4A8CAD129D /* Build configuration list for PBXProject "APIMATICCalculator" */;
+            compatibilityVersion = "Xcode 3.2";
+            developmentRegion = English;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+            );
+            mainGroup = AA2DE2734492AD4058A5AC68;
+            productRefGroup = AA30DB86229AC3423083F504 /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                AAEA836D72B5234C72BAEFAD /* APIMATICCalculator */,
+				AA09DA1AD4775D4D7386ACD4 /* Framework */,
+            );
+        };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA9B531ECA36C64EEE991446 /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#Credit: http://www.raywenderlich.com/65964/create-a-framework-for-ios\nset -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -f -r \"${PODS_ROOT}/Headers/Public/JSONModel/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Copy the public headers into the framework\n/bin/cp -f -r \"${PODS_ROOT}/Headers/Public/Unirest/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Copy the public headers into the framework\n/bin/cp -f -r \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
+		};
+		AACE86C551ED634AE7A37B1E /* MultiBuild Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "MultiBuild Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#Credit: http://www.raywenderlich.com/65964/create-a-framework-for-ios\nset -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\n\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n     \n     xcrun xcodebuild \\\n    -workspace \"${PROJECT_DIR}/${PROJECT_NAME}.xcworkspace\" \\\n    -scheme \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.framework\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+        AA6005E51FBBA841F39F2B59 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                AA539E2BAC6E8546D19870EE /* APIHelper.m in Sources */,
+                AA5C907FC0D7D9450187ECE5 /* APIError.m in Sources */,
+                AA46286E9044534525A6944E /* Configuration.m in Sources */,
+				AACF319ACD78F0419E86A546 /* GetCalculateInput.m in Sources */,
+				AAC90BDB7F05324C418C5AD7 /* OperationTypeEnumHelper.m in Sources */,
+				AA1D491E053C854F0D9414EE /* SimpleCalculatorController.m in Sources */,
+				 AAB8789F428B9C4B2AA6FE1D /* HttpBodyRequest.m in Sources */,
+				 AA17C98A3DA4614AA2B9268E /* BaseController.m in Sources */,
+				 AA12754396891B4534892D55 /* UnirestClient.m in Sources */,
+				 AA0343ADA594314B6AB5307B /* UnirestClient.m in Sources */,
+				 AA346E0E8135D94C86A3F5ED /* HttpResponse.m in Sources */,
+				 AAADB0717942E14DC19B101A /* HttpStringResponse.m in Sources */,
+				 AAA46A047F23B0439685CF6B /* HttpRequest.m in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA2BC104F58FFF479DB65BB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAEA836D72B5234C72BAEFAD /* APIMATICCalculator */;
+			targetProxy = AA61537770990641C4873993 /* PBXContainerItemProxy */;
+		};
+        AA3E09D4541455498295BACC /* PBXTargetDependency */ = {
+            isa = PBXTargetDependency;
+            target = AAEA836D72B5234C72BAEFAD /* APIMATICCalculator */;
+            targetProxy = AA61537770990641C4873993 /* PBXContainerItemProxy */;
+        };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA95856FB09C414AC99F4617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA32532B0E29EF46C9AD083F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+        AA4A238665277F4B1490BAD0 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+                CLANG_CXX_LIBRARY = "libc++";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                COPY_PHASE_STRIP = NO;
+                GCC_C_LANGUAGE_STANDARD = gnu99;
+                GCC_DYNAMIC_NO_PIC = NO;
+                GCC_OPTIMIZATION_LEVEL = 0;
+                GCC_PREPROCESSOR_DEFINITIONS = (
+                    "DEBUG=1",
+                    "$(inherited)",
+                );
+                GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+                ONLY_ACTIVE_ARCH = YES;
+                SDKROOT = iphoneos;
+            };
+            name = Debug;
+        };
+        AA1F2EF4DFDC6E4307A6BE33 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+                CLANG_CXX_LIBRARY = "libc++";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                COPY_PHASE_STRIP = YES;
+                ENABLE_NS_ASSERTIONS = NO;
+                GCC_C_LANGUAGE_STANDARD = gnu99;
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+                SDKROOT = iphoneos;
+                VALIDATE_PRODUCT = YES;
+            };
+            name = Release;
+        };
+        AAA08A6FB31D644AF784C93B /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                DEAD_CODE_STRIPPING = NO;
+                DSTROOT = /tmp/APIMATICCalculator.dst;
+                GCC_PRECOMPILE_PREFIX_HEADER = YES;
+                GCC_PREFIX_HEADER = "APIMATICCalculator/APIMATICCalculator-Prefix.pch";
+                OTHER_LDFLAGS = "";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+                SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = "non-global";
+            };
+            name = Debug;
+        };
+        AAC5517879A5844116A8C765 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+                DSTROOT = /tmp/APIMATICCalculator.dst;
+                GCC_PRECOMPILE_PREFIX_HEADER = YES;
+                GCC_PREFIX_HEADER = "APIMATICCalculator/APIMATICCalculator-Prefix.pch";
+                OTHER_LDFLAGS = "";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+                SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = "non-global";
+            };
+            name = Release;
+        };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAF01E0669914848E68AD21D /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA95856FB09C414AC99F4617 /* Debug */,
+				AA32532B0E29EF46C9AD083F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+        AA686BCE5A290D4A8CAD129D /* Build configuration list for PBXProject "APIMATICCalculator" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                AA4A238665277F4B1490BAD0 /* Debug */,
+                AA1F2EF4DFDC6E4307A6BE33 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        AA5083326A1B264D77A64B16 /* Build configuration list for PBXNativeTarget "APIMATICCalculator" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                AAA08A6FB31D644AF784C93B /* Debug */,
+                AAC5517879A5844116A8C765 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+/* End XCConfigurationList section */
+    };
+    rootObject = AAA1611CD1A3294045B2CC6F /* Project object */;
+}
